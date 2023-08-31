@@ -1,0 +1,12 @@
+SELECT TOP 10 WITH TIES *
+FROM Contact.Contact
+ORDER BY Nom;
+
+--UPDATE TOP (10) Contact.Contact
+--SET Nom = UPPER(Nom)
+
+SELECT *
+FROM Contact.Contact
+ORDER BY Nom
+OFFSET 10 ROWS
+FETCH NEXT (SELECT COUNT(*) / 10 FROM Contact.Contact) ROWS ONLY;

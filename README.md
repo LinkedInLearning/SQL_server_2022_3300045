@@ -8,22 +8,11 @@ DESCRIPTION DE LA FORMATION
 
 ## Instructions
 
-Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
-
-## Branches
-
-Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : `CHAPITRE#_VIDEO#`. Par exemple, la branche nommée`02_03` correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
-La branche `02_03_d` correspond au code du début de la vidéo.  
-La branche `02_03_f` correspond au code à la fin de la vidéo.  
-La branche master correspond au code à la fin de la formation. 
+Ce dossier Repository a des dossier pour chacun des chapitres du cours. Dans chaque dossier, vous trouverez des fichiers SQL contenant le code exécuté dans les vidéos. Le nom du fichier comporte le numéro du chapitre, le numéro de la vidéo, et le sujet de la démonstation. Par exemple, le fichier [02_08.Voir le journal de transactions.sql](./Chapitre_02/02_08.Voir%20le%20journal%20de%20transactions.sql) contient le code SQL exécuté dans la vidéo 8 du chapitre 2, qui montre comment voir le contenu du journal de transactions.
 
 ## Installation
 
-1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [Liste des logiciels/dépendances utiles à la formation] 
-2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. [Instructions spécifiques au cours] 
-
+Vous n'avez pas besoin de cloner le dépôt Git ou d'installer quoi que ce soit pour utiliser les fichiers de ce cours. Vous pouvez simplement copier le code SQL depuis Github.
 
 ### Formateur
 

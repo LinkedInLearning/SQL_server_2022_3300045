@@ -1,0 +1,9 @@
+SELECT value
+FROM GENERATE_SERIES(1, 100, 5);
+
+SELECT CAST(DATEADD(year, value, '1900-01-01') as date)
+FROM GENERATE_SERIES(1, 100, 1);
+
+SELECT DateFacture,
+	DATE_BUCKET(MONTH, 1, DateFacture)
+FROM Inscription.Facture

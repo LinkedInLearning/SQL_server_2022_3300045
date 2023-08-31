@@ -1,0 +1,19 @@
+SELECT *, _DateDebut, _DateFin
+FROM dbo.Commande FOR SYSTEM_TIME ALL
+WHERE CommandeId = 1
+ORDER BY _DateDebut;
+
+SELECT *, _DateDebut, _DateFin
+FROM dbo.Commande FOR SYSTEM_TIME AS OF '2023-08-24 19:46:00';
+
+SELECT *, _DateDebut, _DateFin
+FROM dbo.Commande FOR SYSTEM_TIME 
+	FROM '2023-08-24 19:50:00' TO '2023-08-24 19:54:40.4871408'
+
+SELECT *, _DateDebut, _DateFin
+FROM dbo.Commande FOR SYSTEM_TIME 
+	BETWEEN '2023-08-24 19:50:00' AND '2023-08-24 19:54:40.4871408'
+
+SELECT *, _DateDebut, _DateFin
+FROM dbo.Commande FOR SYSTEM_TIME 
+	CONTAINED IN ('2023-08-24 19:50:00', '2023-08-24 19:54:00')
