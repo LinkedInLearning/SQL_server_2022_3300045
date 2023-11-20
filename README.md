@@ -4,7 +4,7 @@ Ce dossier Repository est lié au cours `SQL Server 2022 pour les développeurs 
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
-DESCRIPTION DE LA FORMATION
+Si vous utilisez et gérez des bases de données, découvrez cette formation sur SQL Server, le système de gestion de bases de données relationnelles de Microsoft. Il s'agit de l'un des puissants et populaires SGBDR du marché, notamment à destination des développeurs. Rudi Bruchez, expert en SQL Server, vous explique tout sur les bases de données, des tables jusqu'aux colonnes, et des fonctionnalités qui vont servir à tous vos développements. Vous allez également maîtriser le langage Transact SQL et ses syntaxes spécifiques pour gérer vos projets de manière efficace.
 
 ## Instructions
 
@@ -22,7 +22,7 @@ Vous n'avez pas besoin de cloner le dépôt Git ou d'installer quoi que ce soit 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/sql-server-2022-pour-les-developpeurs-developpeuses
-[lil-thumbnail-url]: https:
+[lil-thumbnail-url]: 
 [lil-URL-trainer]: https://www.linkedin.com/learning/instructors/rudi-bruchez
 
 [1]: # (End of FR-Instruction ###############################################################################################)
