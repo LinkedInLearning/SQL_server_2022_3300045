@@ -22,7 +22,7 @@ Vous n'avez pas besoin de cloner le dépôt Git ou d'installer quoi que ce soit 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/sql-server-2022-pour-les-developpeurs-developpeuses
-[lil-thumbnail-url]: 
+[lil-thumbnail-url]: test
 [lil-URL-trainer]: https://www.linkedin.com/learning/instructors/rudi-bruchez
 
 [1]: # (End of FR-Instruction ###############################################################################################)
